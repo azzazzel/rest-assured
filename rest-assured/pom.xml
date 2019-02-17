@@ -51,7 +51,9 @@
                         	!io.restassured.path.xml.*,
                             !io.restassured.path.json.*,
                             !io.restassured.common.*,
-                            !io.restassured.internal.*,
+                            !io.restassured.internal.path.xml.*,
+                            !io.restassured.internal.path.json.*,
+                            !io.restassured.internal.common.*,
                         	io.restassured.*
                         </Export-Package>
                         <Import-Package>
